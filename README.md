@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# spatial-transcriptomics-analyzer
+This is a GNN based work, which can analyze the spatial transcriptomics data into a suitable visualization manner, with graphs and all the necessary data output along with report card.
+>>>>>>> 80e72c602026e9a84c3a9dc75912f02b9dd0c7c8
