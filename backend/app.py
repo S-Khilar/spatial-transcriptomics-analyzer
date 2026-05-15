@@ -13,7 +13,7 @@ def home():
     return {"message": "Spatial GNN Backend Running"}
 
 
-app.mount("/results", StaticFiles(directory="backend/results"), name="results")
+app.mount("/results", StaticFiles(directory="results"), name="results")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -61,7 +61,7 @@ async def run_analysis(file: UploadFile):
         adata = run_pipeline(dataset_path)
         print("Pipeline completed successfully.")
 
-        output_dir = os.path.join("backend", "results", "output")
+        output_dir = os.path.join("results", "output")
         os.makedirs(output_dir, exist_ok=True)
 
         umap_x = adata.obsm["X_umap"][:, 0].tolist()
