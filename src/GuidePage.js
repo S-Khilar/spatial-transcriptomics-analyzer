@@ -116,6 +116,26 @@ export default function GuidePage() {
 
         </div>
 
+        <div className="guide-card tutorial-card">
+          <h2>Video Tutorial</h2>
+            <p>
+              Watch the complete tutorial on how to
+              prepare datasets, upload files, run analysis,
+              and explore AI-powered spatial transcriptomics
+              visualizations.
+            </p>
+
+            <a
+              href="https://youtu.be/cVkorpzbjYM?si=R_LeaIgPLPFIIloS"
+              target="_blank"
+              rel="noreferrer"
+              className="tutorial-btn"
+            >
+              ▶ Watch Tutorial on YouTube
+            </a>
+
+        </div>
+
       </div>
 
     </div>

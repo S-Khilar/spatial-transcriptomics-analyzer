@@ -110,3 +110,78 @@
   padding-left: 22px;
 
 }
+
+/* TUTORIAL CARD */
+
+.tutorial-card {
+
+  position: relative;
+
+  overflow: hidden;
+
+}
+
+.tutorial-card::before {
+
+  content: "";
+
+  position: absolute;
+
+  width: 220px;
+  height: 220px;
+
+  background:
+    rgba(255,0,80,0.08);
+
+  border-radius: 50%;
+
+  top: -100px;
+  right: -100px;
+
+  filter: blur(50px);
+
+}
+
+.tutorial-btn {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  margin-top: 24px;
+
+  padding: 14px 24px;
+
+  border-radius: 18px;
+
+  text-decoration: none;
+
+  font-weight: 700;
+
+  color: white;
+
+  background:
+    linear-gradient(
+      135deg,
+      #ff004c,
+      #ff4d6d
+    );
+
+  transition: 0.35s;
+
+  position: relative;
+
+  z-index: 1;
+
+}
+
+.tutorial-btn:hover {
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 10px 35px rgba(255,0,80,0.35);
+
+}
