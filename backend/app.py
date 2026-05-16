@@ -7,6 +7,12 @@ import zipfile
 import os
 import uuid
 
+
+
+os.makedirs("results", exist_ok=True)
+os.makedirs("uploads", exist_ok=True)
+os.makedirs("temp", exist_ok=True)
+
 app = FastAPI()
 @app.get("/")
 def home():
