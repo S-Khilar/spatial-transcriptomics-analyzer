@@ -44,7 +44,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "https://spatial-transcriptomics-analyzer-0enw.onrender.com",
+        "https://spatial-transcriptomics-analyzer-0enw.onrender.com/run-analysis",
         {
           method: "POST",
           body: formData,
