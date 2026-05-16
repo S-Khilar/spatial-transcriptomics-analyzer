@@ -43,9 +43,8 @@ function App() {
     const timeout = setTimeout(() => controller.abort(), 300000);
 
     try {
-
       const response = await fetch(
-        "http://127.0.0.1:8000/run-analysis/",
+        "https://spatial-transcriptomics-analyzer-0enw.onrender.com",
         {
           method: "POST",
           body: formData,

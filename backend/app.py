@@ -29,7 +29,7 @@ app.add_middleware(
 )
 
 
-@app.post("/run-analysis/")
+@app.post("/run-analysis")
 async def run_analysis(file: UploadFile):
     extract_path = None
     zip_path = "data.zip"
