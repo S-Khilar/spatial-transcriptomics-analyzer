@@ -1,4 +1,4 @@
-from src.report_generator import generate_pdf_report
+from report_generator import generate_pdf_report
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt

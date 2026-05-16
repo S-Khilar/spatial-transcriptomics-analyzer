@@ -62,7 +62,7 @@ async def run_analysis(file: UploadFile):
         if not os.path.exists(os.path.join(dataset_path, "spatial")):
             return {"error": "Data file not found in the uploaded zip. 'spatial/' directory is missing."}
 
-        from backend.pipeline import run_pipeline
+        from pipeline import run_pipeline
 
         adata = run_pipeline(dataset_path)
         print("Pipeline completed successfully.")
